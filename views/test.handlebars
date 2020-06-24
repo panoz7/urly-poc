@@ -1,0 +1,30 @@
+<html>
+
+    <head>
+        <title>URLY-POC</title>
+    </head>
+
+    <body>
+        
+        <h1>URLY POC</h1>
+        <h3>Shorten a URL:</h3>
+        <form id='url-form'>
+            <input type='text' id='url' placeholder='url'>
+            <input type='submit'>
+        </form>
+
+        <div id='recent-urls'>
+            <h3>Recently Shortened URLs:</h3>
+            <table>
+                <thead>
+                    <tr><th>Original</th><th>Shortened</th></tr>
+                </thead>
+                <tbody id='url-table'>
+                </tbody>
+            </table>
+        </div>
+
+        <script src='app/app.js'></script>
+
+    </body>
+</html>
